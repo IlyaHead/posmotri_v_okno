@@ -72,10 +72,10 @@ ol {
 }
 
 .result__video {
-  object-fit: cover;
-  object-position: center;
   block-size: 100%;
   inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
