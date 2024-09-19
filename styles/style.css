@@ -111,7 +111,10 @@ ol {
   display: flex;
   flex-direction: column;
   padding: 3px;
-  gap: 30px;
+}
+
+.content__list-item:not(:last-child) {
+  margin-block-end: 30px;
 }
 
 .content__card-link {
@@ -204,7 +207,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:hover .search-form__label-text {
+.search-form__label:hover .search-form__label-text:hover {
   text-decoration: underline;
 }
 
